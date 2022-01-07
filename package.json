@@ -17,6 +17,6 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.14",
    "ask-sdk-core": "^2.11.0",
-    "ask-sdk-express-adapter": "^2.11.0",
+    "ask-sdk-express-adapter": "^2.11.0"
   }
 }
