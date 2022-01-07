@@ -2,6 +2,9 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors"
 import mongoose from "mongoose"
+import Alexa, { SkillBuilders } from "ask-sdk-core";
+import { ExpressAdapter } from "ask-sdk-express-adapter";
+
 
 mongoose.connect('mongodb+srv://farrukha303:4515750@cluster0.wcc2p.mongodb.net/expressCrud?retryWrites=true&w=majority')
 const USER = mongoose.model('users', {
